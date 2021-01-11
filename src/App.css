@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  height: 300px;
+}
+
+.search-box{
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.PokemonDisplayCss{
+  margin-bottom: 50px;
+}
+.PokemonTypeListCss{
+  margin-bottom: 50px;
+}
+.PokemonListCss{
+  margin-bottom: 50px;
+  height: 200px;
+}
+
+.App-header {
+height: 100%!important;
+
+}
+.style-poke{
+  height: 200px!important;
+  overflow: auto!important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.Mist{
+background-image: linear-gradient(to top, #dcdcdc -2%, #696969 105%)!important;
+}
+.Clouds{
+  background-image: linear-gradient(to top, #fffaf0 1%, #a9a9a9 101%)!important;
+}
+.Clear{
+  background-image: linear-gradient(to bottom right, #ffcc99 10%, #99ccff 44%)!important;
+}
+
+.block-meteo{
+  margin-left: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

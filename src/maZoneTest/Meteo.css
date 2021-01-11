@@ -1,0 +1,29 @@
+.card-body{
+    border-radius: 10px;
+    box-shadow: 3px 6px 16px 6px #888888;
+    min-height: 250px;
+}
+
+.display-pokemon{
+    border-radius: 10px;
+    box-shadow: 3px 6px 16px 6px #888888;
+    min-height: 200px;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.input-weather{
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.first_block_weather{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.Meteo{
+    margin-bottom: 100px;
+}
+
