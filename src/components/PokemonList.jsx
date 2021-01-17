@@ -31,7 +31,8 @@ export default function PokemonList({ type, setPokemonUrl }) {
 
     return (
         <div style={{height: 180 + 'px', overflow: 'auto'}}>
-        <ul>
+        <nav >
+            <ul style={{listStyle: 'none'}}>
             {pokemons?.map(({ pokemon }) => (
                 <PokemonListElement
                     type="button"
@@ -40,7 +41,8 @@ export default function PokemonList({ type, setPokemonUrl }) {
                     setPokemonUrl={setPokemonUrl}
                 />
             ))}
-        </ul>
+            </ul>
+        </nav>
         </div>
     );
 }

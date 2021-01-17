@@ -27,7 +27,6 @@ export default function PokemonDisplay({ pokemonUrl }) {
     }
     return (
         <>
-            <div>id: {pokemonData.id}</div>
             <div>name: {pokemonData.name}</div>
             <img alt="pokemon figure" src={pokemonData.sprites?.front_default} />
         </>

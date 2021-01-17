@@ -1,9 +1,6 @@
 import './maZoneTest/Meteo.css';
-import logo from './logo.svg';
 import React, {Component, useState} from "react";
-import MeteoDisplay from "./components/MeteoDisplay";
-import MeteoList from "./components/MeteoList";
-import MeteoTypeList from "./components/MeteoSearch";
+
 
 
 function Header() {

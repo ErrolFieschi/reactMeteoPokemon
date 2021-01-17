@@ -3,9 +3,6 @@
   height: 300px;
 }
 
-.search-box{
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,7 +13,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+li > button{
+  margin-top: 10px;
+  min-width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #474338;
+  color: white;
+}
+nav > ul > li:nth-child(1){
+  margin-top: 20px;
+}
 .PokemonDisplayCss{
   margin-bottom: 50px;
 }
@@ -33,25 +40,48 @@ height: 100%!important;
 
 }
 .style-poke{
-  height: 200px!important;
   overflow: auto!important;
 }
 .App-link {
   color: #61dafb;
 }
 
+.Snow{
+  background-image: url(https://csshint.com/wp-content/uploads/2020/09/Falling-Snowflake-Animation.gif);
+  color: white;
+}
 .Mist{
-background-image: linear-gradient(to top, #dcdcdc -2%, #696969 105%)!important;
+/* background-image: linear-gradient(to top, #dcdcdc -2%, #696969 105%)!important; */
+
+/* background-image: url(https://img.over-blog-kiwi.com/0/66/84/30/20190223/ob_ac9d31_orso-nuvola.jpg); */
+
+background-image: url(https://thumbs.gfycat.com/AbandonedMajesticHornet-size_restricted.gif);
+background-repeat: no-repeat;
+object-fit: cover!important;
+color: white;
+
 }
 .Clouds{
-  background-image: linear-gradient(to top, #fffaf0 1%, #a9a9a9 101%)!important;
+  /* background-image: linear-gradient(to top, #fffaf0 1%, #a9a9a9 101%)!important; */
+object-fit: none;
+object-position: -1200px 100px;
+/* background-image: url(https://img.over-blog-kiwi.com/0/66/84/30/20190223/ob_ac9d31_orso-nuvola.jpg); */
+background-image: url(https://media1.giphy.com/media/4N1FZFE5AGO3qrUGkw/source.gif);
+
 }
 .Clear{
-  background-image: linear-gradient(to bottom right, #ffcc99 10%, #99ccff 44%)!important;
+  /*background-image: linear-gradient(to bottom right, #ffcc99 10%, #99ccff 44%)!important; */
+  /* background-image: url(https://dndq54y5g3sk9.cloudfront.net/wp-content/uploads/2019/07/soleil.jpg); */
+  background-image: url(https://media2.giphy.com/media/o7R0zQ62m8Nk4/giphy.gif);  color: black;
+  object-fit: contain;
 }
 
 .block-meteo{
   margin-left: 100px;
+}
+
+.card-body{
+  min-height: 370px!important;
 }
 
 @keyframes App-logo-spin {
